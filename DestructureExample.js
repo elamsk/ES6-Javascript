@@ -2,6 +2,7 @@ function printFirstAndSecondElement([first, second]) {
     console.log('First element is ' + first + ', second is ' + second)
 }
 
+// Comma is the seperator
 function printSecondAndFourthElement([, second, , fourth]) {
     console.log('Second element is ' + second + ', fourth is ' + fourth)
 }
@@ -12,7 +13,7 @@ printFirstAndSecondElement(array)
 printSecondAndFourthElement(array)
 
 
-
+// It takes based on the keyvalue pair. Key need to have same name
 
 function printBasicInfo({firstName, secondName, profession}) {
 	console.log(firstName + ' ' + secondName + ' - ' + profession)

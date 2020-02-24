@@ -16,3 +16,8 @@ function f() {
 }
 
 f()
+
+//Var keyword means Global variable 
+//Let keyword is scope specfic 
+//Const keyword is same as Let scope . Const we cannot change the data 
+

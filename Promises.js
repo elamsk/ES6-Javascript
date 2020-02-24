@@ -1,3 +1,6 @@
+// when u promise a activity we can have a guratance of fullfillment.
+// Promise is async with gurtance response .there is no timelinit a
+
 function asyncFunc() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
